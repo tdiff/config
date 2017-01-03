@@ -23,6 +23,7 @@
 	ll = log --decorate=short --max-count=10 --pretty=short --graph
 	co = checkout
 	br = branch
+	brr = branch -vv
 	d = diff
 	dc = diff --cached
 [color]
