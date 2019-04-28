@@ -1,14 +1,6 @@
 [user]
 	name = A.Dmitrovsky
-	email = Anton.Dmitrovsky@infowatch.com
-[merge]
-	tool = kdiff3
-[mergetool "kdiff3"]
-	path = C:/Program Files (x86)/KDiff3/kdiff3.exe
-[diff]
-	guitool = kdiff3
-[difftool "kdiff3"]
-	path = C:/Program Files (x86)/KDiff3/kdiff3.exe
+	email = 
 [core]
 	autocrlf = true
 	whitespace = trailing-space,space-before-tab
@@ -25,6 +17,8 @@
 	br = branch
 	brr = branch -vv
 	d = diff
-	dc = diff --cached
+	dc = diff --check
+	di = diff --cached
+	dic = diff --cached --check
 [color]
 	ui = auto
