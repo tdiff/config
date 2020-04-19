@@ -3,3 +3,5 @@ alias pd=pushd
 
 alias gi=git
 alias gut=git
+
+HISTTIMEFORMAT="%d/%m/%y %T "
