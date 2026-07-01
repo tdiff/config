@@ -1,13 +1,29 @@
+[url "git@gitlab.nebius.dev:"]
+	insteadOf = https://gitlab.nebius.dev/
+[protocol]
+	version = 2
 [user]
 	name = A.Dmitrovsky
-	email = 
+	email = anton.dmitrovsky@nebius.com
 [core]
-	autocrlf = true
+	autocrlf = input
 	whitespace = trailing-space,space-before-tab
+	editor = vim
 [log]
 	date = iso
 [branch]
 	autosetuprebase = remote
+[diff]
+	algorithm = histogram
+[fetch]
+	prune = true
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
+[rebase]
+	autosquash = true
+	autostash = true
 [alias]
 	s = status -uno
 	ss = status
@@ -20,5 +36,8 @@
 	dc = diff --check
 	di = diff --cached
 	dic = diff --cached --check
+	cp = cherry-pick
+	cm = commit -m
+	cf = commit --fixup
 [color]
 	ui = auto
