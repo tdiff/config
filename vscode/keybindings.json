@@ -1,0 +1,28 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+-",
+        "command": "-decreaseSearchEditorContextLines",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "alt+-",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "ctrl+alt+-",
+        "command": "-workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "shift+alt+-",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    }
+]

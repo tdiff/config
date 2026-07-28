@@ -1,0 +1,28 @@
+{
+    "workbench.colorTheme": "Solarized Light",
+    "chat.viewSessions.orientation": "stacked",
+    "editor.minimap.enabled": false,
+    "git.blame.editorDecoration.enabled": true,
+    "editor.inlayHints.enabled": "off",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "editor.renderWhitespace": "trailing",
+    "git.blame.statusBarItem.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "[go]": {
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#ff0a0a"
+            }
+        ],
+    },
+    "git.openRepositoryInParentFolders": "always",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "clang-format.executable": "clang-format-18",
+    "workbench.tree.indent": 16,
+}
