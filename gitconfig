@@ -9,6 +9,7 @@
 	autocrlf = input
 	whitespace = trailing-space,space-before-tab
 	editor = vim
+	pager = "less -F -X"
 [log]
 	date = iso
 [branch]
@@ -21,12 +22,14 @@
 	rebase = true
 [push]
 	autoSetupRemote = true
+	default = upstream
 [rebase]
 	autosquash = true
 	autostash = true
 [alias]
 	s = status -uno
 	ss = status
+	stat = show --name-only
 	l = log --decorate=short --max-count=10 --pretty=oneline --graph
 	ll = log --decorate=short --max-count=10 --pretty=short --graph
 	co = checkout
