@@ -25,4 +25,9 @@
     },
     "clang-format.executable": "clang-format-18",
     "workbench.tree.indent": 16,
+    "editor.rulers": [
+        80
+    ],
+    "editor.formatOnType": true,
+    "zenMode.hideLineNumbers": false,
 }
