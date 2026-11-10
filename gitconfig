@@ -29,7 +29,7 @@
 [alias]
 	s = status -uno
 	ss = status
-	stat = show --name-only
+	stat = show --stat
 	l = log --color=always --decorate=short --max-count=10 --pretty=format:'%C(brightblue)%cd%C(reset) %C(auto)%H%d %s%C(reset)' --date=short --graph
 	ll = log --decorate=short --max-count=10 --pretty=short --graph
 	co = checkout
