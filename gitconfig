@@ -42,5 +42,7 @@
 	cp = cherry-pick
 	cm = commit -m
 	cf = commit --fixup
+	p = "!f() { git push --set-upstream origin \"HEAD:refs/heads/users/dmitrovsky/$1\"; }; f"
+	pf = "!f() { git push -f --set-upstream origin \"HEAD:refs/heads/users/dmitrovsky/$1\"; }; f"
 [color]
 	ui = auto
